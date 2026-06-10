@@ -9,7 +9,7 @@ import static io.restassured.RestAssured.given;
 public class GetUserTest extends TestBase {
     @Test
     public void verifyGetUser() {
-        given().when()
+        request.when()
                 .get(Routes.Get_User)
                 .then()
                 .log().all()

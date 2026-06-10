@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="API Automation Suite">
+
+    <test name="CRUD APIs">
+
+        <classes>
+            <class name="tests.createUserTest"/>
+            <class name="tests.UpdateUser"/>
+            <class name="tests.GetUserTest"></class>
+<!--            <class name="tests.DeleteuserTest"></class>-->
+        </classes>
+
+    </test>
+
+</suite>
